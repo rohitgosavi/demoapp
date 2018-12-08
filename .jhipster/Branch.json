@@ -1,0 +1,31 @@
+{
+    "name": "Branch",
+    "fields": [
+        {
+            "fieldName": "branchId",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "branchName",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipName": "customer",
+            "otherEntityName": "customer",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20181208100119",
+    "entityTableName": "branch",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "demoapp",
+    "applications": "*",
+    "microserviceName": "demoapp"
+}
