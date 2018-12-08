@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "demoapp",
+    "packageName": "com.demo.application",
+    "packageFolder": "com/demo/application",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "consul",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.7.0",
+    "jwtSecretKey": "MWNjZTgyYjc3ZTk2MTExYjgzMmJhZmE0MDQyYjI0ZDE3OWM1MzkzOGIwYmE4OWU3YzVkNmU5NmJlNmI1OTY2YTY3ZTQ1OWExZTc5YzRmM2Y3ZWIxYThkYmE5YjZkMmI5OGIwMDVlZThlMmM4ZDZiZTRkYzBjYjVlZTVjNTY2NTI=",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "rohitgosavi",
+  "repository-name": "demoapp"
+}
